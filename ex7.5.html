@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<script type="text/javascript">
+
+document.addEventListener('click', function (e) {
+  if (e.target.classList.contains("increase")) {
+    ++e.target.parentElement.querySelector("input").value;
+  } 
+  else if (e.target.classList.contains("decrease")) {
+    --e.target.parentElement.querySelector("input").value;
+  }
+  })
+</script>
+<body>
+
+<div>
+  <button class="decrease" type="button">-</button>
+  <input type="text" name="field" value="0" />
+  <button class="increase" type="button">+</button>
+  
+</div>
+
+</body>
+</html>

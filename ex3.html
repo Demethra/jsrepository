@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    var a = 2;
+    var b = 37;
+    var c = 50;
+    var maxResult = "Наибольшее число: ";
+    var minResult = "Наименьшее число: ";
+    
+    switch(Math.max(a, b, c)){
+        case a: maxResult += "a = " + a; break;
+        case b: maxResult += "b = " + b; break;
+        case c: maxResult += "c = " + c; break;
+    }
+
+    switch(Math.min(a, b, c)){
+        case a: minResult += "a = " + a; break;
+        case b: minResult += "b = " + b; break;
+        case c: minResult += "c = " + c; break;
+    }
+         alert(maxResult);
+        alert(minResult);
+</script>
+</body>
+</html>

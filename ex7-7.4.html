@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", () => {
+    document.body.style.backgroundColor = "purple";
+
+
+    setTimeout(() => {
+        document.body.style.backgroundColor = "lightblue";    
+    }, 5000);
+})
+
+	function play(){
+		document.body.style.backgroundColor='red';
+		setTimeout('back',1000);
+	}
+	
+
+</script>
+<body>
+<input type="button" value="Red" onclick="play()">
+</body>
+</html>
