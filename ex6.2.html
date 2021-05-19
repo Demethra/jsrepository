@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function summa(salaries) {
+
+  let sum = 0;
+  for (let salary of Object.values(salaries)) {
+    sum += salary;
+  }
+  return sum;
+}
+
+let salaries = {
+  "John": 100,
+  "Pete": 300,
+  "Mary": 250
+};
+
+alert( summa(salaries) );
+</script>
+</body>
+</html>

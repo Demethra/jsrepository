@@ -1,0 +1,19 @@
+person = '[{ 
+ "FIO":"Carpenco Alexandr Vitalie",
+ "Birthday":"27.07.1998",
+ "Phone":"+37369568956",
+ "Adress":"Bulgara 125",
+ "E-mail":"karpenko.aleksandr.96@mail.ru",
+ "Gender":"Male"}],
+ "aboutwork":[{
+ "Post":"student",
+ "Working from":"10.12.2020",
+ "IDNP":"123456789",
+ "Salary":"1500$",
+ "Birth location":"Moldova",
+ "Experience":"2 years",
+ "Department":"IT",
+ "Home phone":"02314585695",
+ "Time":"from 8:00 to 17:00"
+ }
+]';
